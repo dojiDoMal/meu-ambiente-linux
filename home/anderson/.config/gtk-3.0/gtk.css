@@ -3,29 +3,23 @@
 }
 
 #whiskermenu-button {
-    margin: 1px;
-    border: none;    
-    background: #f0f0f0; 
-    border-bottom-left-radius: 1px;
-    border-bottom-right-radius: 1px;
-    border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
+    margin: 1px;   
+    background: #0079fe; 
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     
 }
 #whiskermenu-button:hover {
-    background: #ffffff;
-    border-color: #ffffff;
-    border-width: 1px;
+    background: #1089ff;
+    border: none;
 }
 
 #whiskermenu-button image { 
-    background: url("/home/anderson/Imagens/ubuntu-icon-blue.svg");
-    background-size: cover;
-    opacity: 1;  
-}
-
-#whiskermenu-button:hover image { 
-    opacity: 0.8;  
+    background: url("/home/anderson/Imagens/ubuntu-icon-blue-s.png");
+    background-size: cover; 
 }
 
 scrollbar, scrollbar.vertical, scrollbar.horizontal {
