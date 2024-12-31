@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Thunar File Manager
+Name[pt]=Gestor de ficheiros Thunar
+Name[pt_BR]=Gerenciador de arquivos Thunar
+Comment=Browse the filesystem with the file manager
+Comment[pt]=Explorar sistema de ficheiros com o gestor de ficheiros
+Comment[pt_BR]=Navegue no sistema de arquivos com o gerenciador de arquivos
+GenericName=File Manager
+GenericName[pt]=Gestor de ficheiros
+GenericName[pt_BR]=Gerenciador de arquivos
+Exec=thunar %F
+Icon=Thunar
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=System;Utility;Core;GTK;FileTools;FileManager;
+MimeType=inode/directory;
+X-XFCE-Source=file:///usr/share/applications/thunar.desktop
