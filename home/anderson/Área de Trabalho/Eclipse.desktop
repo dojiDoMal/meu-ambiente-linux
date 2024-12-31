@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Eclipse
+Exec=/home/anderson/jee-latest-released/eclipse/eclipse
+Icon=/home/anderson/jee-latest-released/eclipse/icon.xpm
+Type=Application
+Categories=IDE;Desenvolvimento;
+
