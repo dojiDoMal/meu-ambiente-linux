@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Microsoft Teams
+Exec=/home/anderson/.chromium/1400313/chrome-linux/chrome --user-data-dir=/home/anderson/.chromium/user-data-dir --profile-directory=Default --app-id=cifhbcnohmdccbgoicgdjpfamggdegmo
+Icon=chrome-cifhbcnohmdccbgoicgdjpfamggdegmo-Default
+StartupWMClass=crx_cifhbcnohmdccbgoicgdjpfamggdegmo
