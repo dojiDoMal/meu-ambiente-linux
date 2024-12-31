@@ -1,0 +1,50 @@
+.xfce4-panel.vertical{
+    border-radius: 10px;
+}
+
+#whiskermenu-button {
+    margin: 1px;
+    border: none;    
+    background: #f0f0f0; 
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    
+}
+#whiskermenu-button:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    border-width: 1px;
+}
+
+#whiskermenu-button image { 
+    background: url("/home/anderson/Imagens/ubuntu-icon-blue.svg");
+    background-size: cover;
+    opacity: 1;  
+}
+
+#whiskermenu-button:hover image { 
+    opacity: 0.8;  
+}
+
+scrollbar, scrollbar.vertical, scrollbar.horizontal {
+    margin: 0;
+}
+
+scrollbar slider {   
+    background-image: linear-gradient(#4d5454); 
+    border-radius: 3px;
+    margin: 2px;
+    min-width: 8px;            
+    min-height: 8px;           
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+scrollbar slider:hover { background-image: linear-gradient(#575e5e); }
+
+scrollbar trough {
+    background-color: #e0e0e0; 
+    border-radius: 2px;
+}
+
