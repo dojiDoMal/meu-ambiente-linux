@@ -1,0 +1,8 @@
+[http]
+	sslVerify = false
+[credential]
+	credentialStore = secretservice
+	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+[push]
+	autoSetupRemote = true
+	default = simple
