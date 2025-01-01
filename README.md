@@ -23,8 +23,9 @@ Este documento fornece instruções para configurar o ambiente com os temas, pac
      Caso não tenha a fonte instalada, [baixe-a aqui](https://www.nerdfonts.com/) e extraia o conteúdo para a pasta `/home/anderson/.fonts`.
 
 4. **Configurar o gerenciador de janelas**  
+   - Extraia o arquivo Mojave-Dark.tar.gz para o diretório `/usr/share/themes/`
    - Vá para: **Gerenciador de Janelas > Estilo**.  
-   - Selecione o tema: **default-hdpi**.
+   - Selecione o tema: **Mojave-Dark**.
 
 5. **Personalizar o Firefox**  
    - Clique com o botão direito na barra do Firefox.
