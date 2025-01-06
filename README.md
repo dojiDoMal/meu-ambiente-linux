@@ -31,6 +31,7 @@ Este documento fornece instruções para configurar o ambiente com os temas, pac
    - Clique com o botão direito na barra do Firefox.
    - Vá para: **Personalizar o Firefox**.
    - No canto inferior esquerdo, marque a opção **Barra de título**.
+   - Instalar a extensão [Progressive Web Apps for Firefox](https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/) para usar WhatsApp Web e Teams (PWAs).
 
 ---
 
@@ -44,10 +45,4 @@ sudo apt install openjdk-21-jdk
 Execute o comando abaixo para instalar os pacotes requeridos:  
 ```bash
 sudo apt install whiptail keytool curl unrar tar wget nc openconnect p11tool 
-```
-
-### 4. Instalar o Chromium
-Para acessar o PWA do Microsoft Teams e WhatsApp Web, instale o Chromium:  
-```bash
-sudo apt install chromium-browser 
 ```
