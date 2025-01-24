@@ -5,7 +5,7 @@
     <property name="activate_action" type="empty"/>
     <property name="box_move" type="empty"/>
     <property name="box_resize" type="empty"/>
-    <property name="button_layout" type="string" value="|HMC"/>
+    <property name="button_layout" type="string" value="CHM|"/>
     <property name="button_offset" type="empty"/>
     <property name="button_spacing" type="empty"/>
     <property name="click_to_focus" type="empty"/>
@@ -38,7 +38,7 @@
     <property name="snap_to_border" type="empty"/>
     <property name="snap_to_windows" type="empty"/>
     <property name="snap_width" type="empty"/>
-    <property name="theme" type="string" value="Default-hdpi"/>
+    <property name="theme" type="string" value="Mojave-Dark"/>
     <property name="title_alignment" type="string" value="center"/>
     <property name="title_font" type="string" value="SF Pro Display Medium 12"/>
     <property name="title_horizontal_offset" type="empty"/>

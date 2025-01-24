@@ -1,0 +1,35 @@
+[xfdesktop-version-4.10.3+-rcfile_format]
+4.10.3+=true
+
+[/home/anderson/Área de Trabalho/VPN.desktop]
+row=1
+col=1
+
+[/home/anderson/Área de Trabalho/chrome-cifhbcnohmdccbgoicgdjpfamggdegmo-Default.desktop]
+row=0
+col=3
+
+[/home/anderson/Área de Trabalho/Postgres Containers.desktop]
+row=1
+col=0
+
+[/home/anderson/Área de Trabalho/Eclipse.desktop]
+row=0
+col=0
+
+[/home/anderson/Área de Trabalho/chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop]
+row=2
+col=0
+
+[Lixeira]
+row=0
+col=4
+
+[/]
+row=0
+col=2
+
+[/home/anderson]
+row=0
+col=1
+

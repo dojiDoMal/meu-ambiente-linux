@@ -1,6 +1,6 @@
 app=firefox
 last_user=
-screenshot_dir=file:///home/anderson/Imagens
+screenshot_dir=file:/home/anderson/eclipse-workspace/test-sdl/assets
 action=2
 delay=0
 region=3

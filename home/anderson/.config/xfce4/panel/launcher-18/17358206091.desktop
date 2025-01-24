@@ -1,0 +1,33 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Thunderbird Mail
+Name[pt_BR]=Cliente de E-mail Thunderbird
+Comment=Send and receive mail with Thunderbird
+Comment[pt_BR]=Leia e escreva suas mensagens
+GenericName=Mail Client
+GenericName[pt_BR]=Cliente de E-mail
+Keywords=Email;E-mail;Newsgroup;Feed;RSS
+Exec=thunderbird %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=thunderbird
+Categories=Application;Network;Email;
+MimeType=x-scheme-handler/mailto;application/x-xpinstall;x-scheme-handler/webcal;x-scheme-handler/mid;message/rfc822;
+StartupNotify=true
+Actions=Compose;Contacts
+X-XFCE-Source=file:///usr/share/applications/thunderbird.desktop
+
+[Desktop Action Compose]
+Name=Compose New Message
+Name[pt]=Criar nova mensagem
+Name[pt_BR]=Compor nova mensagem
+Exec=thunderbird -compose
+OnlyShowIn=Messaging Menu;Unity;
+
+[Desktop Action Contacts]
+Name=Contacts
+Name[pt]=Contactos
+Name[pt_BR]=Contatos
+Exec=thunderbird -addressbook
+OnlyShowIn=Messaging Menu;Unity;

@@ -1,7 +1,7 @@
 favorites=exo-web-browser.desktop,exo-mail-reader.desktop,exo-file-manager.desktop,libreoffice-writer.desktop,libreoffice-calc.desktop,pidgin.desktop,org.gnome.Software.desktop,exo-terminal-emulator.desktop,xfhelp4.desktop
-recent=chrome-cifhbcnohmdccbgoicgdjpfamggdegmo-Default.desktop,menulibre-novo-lançador1.desktop,menulibre.desktop,chromium-latest.desktop,light-locker-settings.desktop,xfce4-screenshooter.desktop,xfce-settings-manager.desktop,exo-file-manager.desktop,transmission-gtk.desktop,menulibre-novo-lançador.desktop
+recent=exo-terminal-emulator.desktop,mousepad.desktop,exo-mail-reader.desktop,vlc.desktop,xfce4-screenshooter.desktop,FFPWA-01JGXTJ3RV5B66MWH2DBHM1N1M.desktop,inkscape.desktop,FFPWA-01JGXT6M7R97GEHRM6WCHDR9EB.desktop,xfce-wm-settings.desktop,xfce-wmtweaks-settings.desktop
 button-title=Applications Menu
-button-icon=xubuntu-logo-menu
+button-icon=/home/anderson/Imagens/ubuntu-icon-xs.svg
 button-single-row=false
 show-button-title=false
 show-button-icon=true

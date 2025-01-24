@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Show Desktop
+Comment=
+Exec=xdotool key ctrl+alt+d
+Icon=preferences-desktop-activities
+Path=
+Terminal=false
+StartupNotify=false

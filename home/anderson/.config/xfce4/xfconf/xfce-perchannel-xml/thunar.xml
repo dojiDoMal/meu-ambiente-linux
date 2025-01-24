@@ -9,6 +9,8 @@
   <property name="last-window-maximized" type="bool" value="true"/>
   <property name="last-separator-position" type="int" value="170"/>
   <property name="last-show-hidden" type="bool" value="true"/>
-  <property name="last-window-width" type="int" value="640"/>
-  <property name="last-window-height" type="int" value="480"/>
+  <property name="last-window-width" type="int" value="935"/>
+  <property name="last-window-height" type="int" value="637"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
 </channel>

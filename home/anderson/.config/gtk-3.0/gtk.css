@@ -2,6 +2,7 @@
     border-radius: 10px;
 }
 
+/*
 #whiskermenu-button {
     margin: 1px;   
     background: #0079fe; 
@@ -20,7 +21,7 @@
 #whiskermenu-button image { 
     background: url("/home/anderson/Imagens/ubuntu-icon.svg");
     background-size: cover; 
-}
+}*/
 
 scrollbar, scrollbar.vertical, scrollbar.horizontal {
     margin: 0;
