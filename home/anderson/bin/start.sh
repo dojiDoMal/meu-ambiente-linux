@@ -52,6 +52,12 @@ elif [ "$1" == "central-servico-react" ]; then
     cd /home/anderson/dataprev/central-servico-react/ || exit
     npm run start
 
+elif [ "$1" == "meu-inss-internet" ]; then
+    echo -e "\033]0;meu-inss-internet\007"
+    nvm use 20
+    cd /home/anderson/dataprev/meu-inss-internet/ || exit
+    npm run start
+
 elif [ "$1" == "meu-inss-gestao-spa" ]; then
     echo -e "\033]0;meu-inss-gestao-spa\007"
     nvm use 20
