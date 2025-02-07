@@ -46,6 +46,12 @@ elif [ "$1" == "portal-spa" ]; then
     cd /home/anderson/dataprev/portal-spa/ || exit
     npm run start-linux
 
+elif [ "$1" == "central-servico-react" ]; then
+    echo -e "\033]0;central-servico-react\007"
+    nvm use 16
+    cd /home/anderson/dataprev/central-servico-react/ || exit
+    npm run start
+
 elif [ "$1" == "meu-inss-gestao-spa" ]; then
     echo -e "\033]0;meu-inss-gestao-spa\007"
     nvm use 20
@@ -55,3 +61,4 @@ elif [ "$1" == "meu-inss-gestao-spa" ]; then
 else
     echo "Unknown project: $1"
 fi
+
