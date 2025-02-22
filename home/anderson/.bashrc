@@ -122,14 +122,20 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export ANDROID_HOME="$HOME/bin/android-sdk/"
+export PATH=/opt/gradle/gradle-8.12/bin/:$PATH
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/emulator:$PATH
 export PATH="$HOME/bin:$PATH"
-export PATH=/opt/gradle/gradle-8.12/bin/:$PATH
 export JAVA_8="/usr/lib/jvm/java-8-openjdk-amd64/bin/"
 export JAVA_17="/usr/lib/jvm/java-17-openjdk-amd64/bin/"
 export JAVA_21="/usr/lib/jvm/java-21-openjdk-amd64/bin/"
+
+# meu-inss-mobile
+#export MEU_INSS_PASSWORD=
+#export MEU_INSS_STORE_PASSWORD=
+#export MEU_INSS_ALIAS=
+#export MEU_INSS_KEYSTORE=
 
 source ~/git_branch_status.sh
 source ~/bin/build_completion.sh
@@ -137,3 +143,6 @@ source ~/bin/build_completion.sh
 alias vpn='sudo /home/anderson/dtpvpn/vpn.sh'
 alias build='bash ~/bin/build.sh'
 alias start='bash ~/bin/start.sh'
+
+
+

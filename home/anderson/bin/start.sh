@@ -12,6 +12,20 @@ if [ "$1" == "meu-inss-service" ]; then
     cd /home/anderson/dataprev/meu-inss-service/ || exit
     java -jar target/meu-inss-service.jar
 
+elif [ "$1" == "inss-notificacoes-registro-api" ]; then
+    echo -e "\033]0;inss-notificacoes-registro-api\007"
+    export PATH=$JAVA_8:$PATH
+    java -version
+    cd /home/anderson/dataprev/inss-notificacoes/inss-notificacoes-registro-api/ || exit
+    java -jar target/inss-notificacoes-registro-api.jar
+
+elif [ "$1" == "inss-notificacoes-batch" ]; then
+    echo -e "\033]0;inss-notificacoes-batch\007"
+    export PATH=$JAVA_8:$PATH
+    java -version
+    cd /home/anderson/dataprev/inss-notificacoes/inss-notificacoes-batch/ || exit
+    java -jar target/inss-notificacoes-batch.jar
+
 elif [ "$1" == "inss-notificacoes-api" ]; then
     echo -e "\033]0;inss-notificacoes-api\007"
     export PATH=$JAVA_8:$PATH
@@ -28,7 +42,7 @@ elif [ "$1" == "inss-notificacoes-config-api" ]; then
 
 elif [ "$1" == "meu-inss-gateway" ]; then
     echo -e "\033]0;meu-inss-gateway\007"
-    export PATH=$JAVA_17:$PATH
+    export PATH=$JAVA_21:$PATH
     java -version
     cd /home/anderson/dataprev/meu-inss-gateway/ || exit
     java -jar target/meu-inss-gateway.jar
